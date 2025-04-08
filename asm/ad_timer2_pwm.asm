@@ -37,7 +37,7 @@ main:
 	ldi     r16, 0x87    
 	sts     ADCSRA, r16  ; habilite o adc e utilize uma pre-escala de 128
 
-	ldi     r16,0x03
+	ldi     r16,0x83
 	sts     TCCR2A,r16   ; defina o modo de opercao fast pwm
 	ldi     r16,0x01
 	sts     TCCR2B,r16   ; defina o clock do timer 2 sem pre-escala 
