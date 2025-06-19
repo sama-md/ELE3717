@@ -33,6 +33,19 @@ Este repositório contém o material de suporte utilizado na componente curricul
 - Código fonte para receber dado via porta twi ([twi_slave_io.c](https://github.com/sama-md/ELE3717/blob/main/c/twi_slave_io.c))
 - Código fonte para fazer um eco na porta serial ([uart_echo.c](https://github.com/sama-md/ELE3717/blob/main/c/uart_echo.c))
 
+**AVR** introdução ao RTOS no ATMega328P em Ansi C
+
+* Código fonte para cria task ([rtos_io_wpin.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin.c))
+* Código fonte para criar fila ([rtos_io_wpin_queue.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_queue.c))
+* Código fonte para criar semáforo binário ([rtos_io_wpin_semaphore_bin.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_semaphore_bin.c))
+* Código fonte para criar semáforo contador ([rtos_io_wpin_semphr_cnt.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_semphr_cnt.c))
+* Código fonte para criar mutex ([rtos_io_wpin_semphr_mtx.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_semphr_mtx.c))
+* Código fonte para criar notificação direct-to-task ([rtos_io_wpin_notification.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_notification.c))
+* Código fonte para notificação direct-to-task com mensagem ([rtos_io_wpin_notification_msg.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_notification_msg.c))
+* Código fonte para criar stream da dados ([rtos_io_wpin_stream.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_stream.c))
+* Código fonte para criar grupo de eventos ([rtos_io_wpin_event.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_event.c))
+* Código fonte para criar timer de software ([rtos_io_wpin_timer.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_timer.c))
+
 ---
 ### Licença
 
