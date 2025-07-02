@@ -45,6 +45,14 @@ Este repositório contém o material de suporte utilizado na componente curricul
 * Código fonte para criar stream da dados ([rtos_io_wpin_stream.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_stream.c))
 * Código fonte para criar grupo de eventos ([rtos_io_wpin_event.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_event.c))
 * Código fonte para criar timer de software ([rtos_io_wpin_timer.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_wpin_timer.c))
+* Código fonte para interação entre uma ISR e fila ([rtos_io_rpin_ich_queue.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_queue.c))
+* Código fonte para interação entre uma ISR e semáforo binário ([rtos_io_rpin_ich_semphr_bin.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_semphr_bin.c))
+* Código fonte para interação entre uma ISR e semáforo contador ([rtos_io_rpin_ich_semphr_count.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_semphr_count.c))
+* Código fonte para notificação direct-to-task a partir de uma ISR ([rtos_io_rpin_ich_notification.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_notification.c))
+* Código fonte para notificação direct-to-task com mensagem a partir de uma ISR ([rtos_io_rpin_ich_notification_msg.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_notification_msg.c))
+* Código fonte para interação entre uma ISR e stream da dados ([rtos_io_rpin_ich_stream.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_stream.c))
+* Código fonte para interação entre uma ISR e grupo de eventos ([rtos_io_rpin_ich_event.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_event.c))
+* Código fonte para interação entre uma ISR e timer de software ([rtos_io_rpin_ich_timer.c](https://github.com/sama-md/ELE3717/blob/main/rtos/rtos_io_rpin_ich_timer.c))
 
 ---
 ### Licença
